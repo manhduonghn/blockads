@@ -1,2 +1,2 @@
 # blockads
-quantumult
+quantumult ios
