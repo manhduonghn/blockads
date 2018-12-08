@@ -8561,5 +8561,4 @@ FINAL,PROXY
 STATE,AUTO
 
 [MITM]
-hostname = graph.facebook.com
 
