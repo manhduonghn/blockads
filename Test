@@ -1,0 +1,33 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN.conf interval=43200 strict=true
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, ::ffff:0.0.0.0/1, ::ffff:128.0.0.0/1, localhost, *.local
+dns-server = system, 1.1.1.1, 9.9.9.9, 208.67.222.222
+loglevel = notify
+
+// iOS
+allow-wifi-access = true
+bypass-system = true
+ipv6 = true
+
+// macOS
+interface = 0.0.0.0
+socks-interface = 0.0.0.0
+port = 8888
+socks-port = 8889
+enhanced-mode-by-rule = false
+
+// Quantumult
+[DNS]
+system, 1.1.1.1, 9.9.9.9, 208.67.222.222
+
+[Replica]
+hide-apple-request = true
+hide-crashlytics-request = true
+hide-udp = true
+use-keyword-filter = false
+
+[Proxy]
+🇻🇳hostsVN = socks5, 127.0.0.1, 443, username, password
+
+[Proxy Group]
+Proxy = select, 🇻🇳hostsVN
