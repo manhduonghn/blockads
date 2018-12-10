@@ -15,6 +15,32 @@ enhanced-mode-by-rule = false
 🇻🇳hostsVN = socks5, 127.0.0.1, 443, username, password
 
 [Rule]
+DOMAIN-KEYWORD,log4x.nixcdn.com,REJECT
+DOMAIN-KEYWORD,app-measurement.com,REJECT
+DOMAIN-KEYWORD,app.adjust.com,REJECT
+DOMAIN-KEYWORD,sb.scorecardresearch.com,REJECT
+DOMAIN-KEYWORD,adcolony.com,REJECT
+DOMAIN-KEYWORD,startappservice.com,REJECT
+DOMAIN-KEYWORD,chartboost.com,REJECT
+DOMAIN-KEYWORD,ad-brix.com,REJECT
+DOMAIN-KEYWORD,metrics.cloudflarebolt.com,REJECT
+DOMAIN-KEYWORD,ssl.google-analytics.com,REJECT
+DOMAIN-KEYWORD,servicelayer.king.com,REJECT
+DOMAIN-KEYWORD,p.midasplayer.com,REJECT
+DOMAIN-KEYWORD,asdkd.tutuapp.com,REJECT
+DOMAIN-KEYWORD,sec.umeng.com,REJECT
+DOMAIN-KEYWORD,ios.bugly.qq.com,REJECT
+DOMAIN-KEYWORD,flurry.com,REJECT
+DOMAIN-KEYWORD,catch.gift,REJECT
+DOMAIN-KEYWORD,tapjoy,REJECT
+DOMAIN-KEYWORD,api.leanplum.com,REJECT
+DOMAIN-KEYWORD,apinas.nct.vn,REJECT
+DOMAIN-KEYWORD,stc-nas.nixcdn.com,REJECT
+DOMAIN-KEYWORD,ads-,REJECT
+DOMAIN-KEYWORD,ads.,REJECT
+DOMAIN-KEYWORD,ads1,REJECT
+DOMAIN-KEYWORD,ads2,REJECT
+DOMAIN-KEYWORD,ocsp.apple.com,REJECT
 DOMAIN-KEYWORD,adclick,REJECT
 DOMAIN-KEYWORD,admarvel,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
