@@ -33,6 +33,7 @@ Proxy = select, 🇻🇳NETWORK
 
 
 [Rule]
+DOMAIN-KEYWORD,catch.gift,REJECT
 DOMAIN-KEYWORD,adv.,REJECT
 DOMAIN-KEYWORD,adcast,REJECT
 DOMAIN-KEYWORD,ocsp.apple.com,REJECT
