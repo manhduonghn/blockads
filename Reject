@@ -39,6 +39,7 @@ https://graph.facebook.com/network_ads_common/
 
 
 [Rule]
+DOMAIN-KEYWORD,mpay.nct.vn,REJECT
 DOMAIN-KEYWORD,metrics.cloudflarebolt.com,REJECT
 DOMAIN-KEYWORD,api.branch.io,REJECT
 DOMAIN-KEYWORD,crashlytics.com,REJECT
