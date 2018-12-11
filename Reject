@@ -33,6 +33,11 @@ Proxy = select, 🇻🇳NETWORK
 
 
 [Rule]
+DOMAIN-KEYWORD,metrics.cloudflarebolt.com,REJECT
+DOMAIN-KEYWORD,api.branch.io,REJECT
+DOMAIN-KEYWORD,crashlytics.com,REJECT
+DOMAIN-KEYWORD,app-measurement.com,REJECT
+DOMAIN-KEYWORD,ssl.google-analytics.com,REJECT
 DOMAIN-KEYWORD,catch.gift,REJECT
 DOMAIN-KEYWORD,adv.,REJECT
 DOMAIN-KEYWORD,adcast,REJECT
