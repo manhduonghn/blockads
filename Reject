@@ -29,6 +29,12 @@ use-keyword-filter = false
 🇻🇳NETWORK = socks5, upstream-proxy-address=127.0.01, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=false, certificate=1
 [Proxy]
 
+🇻🇳NETWORK = socks5, 127.0.0.1, 443, username, password
+
+[Proxy Group]
+Proxy = select, 🇻🇳NETWORK
+
+
 [URL-REJECTION]
 https://graph.nhaccuatui.com/v4/commons/notify-firebase
 https://graph.nhaccuatui.com/v4/users/3g-info
