@@ -26,10 +26,10 @@ hide-udp = true
 use-keyword-filter = false
 
 [SERVER]
-🇻🇳NETWORK = socks5, upstream-proxy-address=127.0.01, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=false, certificate=1
+🇻🇳NETWORK = socks5, upstream-proxy-address=0.0.0.0, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=false, certificate=1
 
 [Proxy]
-🇻🇳NETWORK = socks5, 127.0.0.1, 443, username, password
+🇻🇳NETWORK = socks5, 0.0.0.0, 443, username, password
 
 [Proxy Group]
 Proxy = select, 🇻🇳NETWORK
