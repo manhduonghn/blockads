@@ -34,7 +34,6 @@ use-keyword-filter = false
 [Proxy Group]
 Proxy = select, 🇻🇳NETWORK
 
-
 [URL-REJECTION]
 https://graph.nhaccuatui.com/v4/commons/notify-firebase
 https://graph.nhaccuatui.com/v4/users/3g-info
