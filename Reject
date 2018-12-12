@@ -26,7 +26,7 @@ hide-udp = true
 use-keyword-filter = false
 
 [Proxy]
-🇻🇳NETWORK = socks5, 0.0.0.0, 443, username, password
+🇻🇳NETWORK = socks5, 127.0.0.1 , 443, username, password
 
 [Proxy Group]
 Proxy = select, 🇻🇳NETWORK
