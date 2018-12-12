@@ -543,6 +543,6 @@ DOMAIN-KEYWORD,adverserve,REJECT
 FINAL,DIRECT
 
 [MITM]
-hostname = graph.facebook.com,graph.nhaccuatui.com,*youtube.com
+hostname = graph.facebook.com,graph.nhaccuatui.com,*.youtube.com
 
 
