@@ -4,11 +4,11 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, ::ffff:0.0.0.0/1, ::ffff:128
 dns-server = system, 1.1.1.1, 9.9.9.9, 208.67.222.222
 loglevel = notify
 
-[DNS]
-system, 1.1.1.1, 9.9.9.9, 208.67.222.222
-
 [SOURCE]
 manhduonghn, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, true
+
+[DNS]
+system, 1.1.1.1, 9.9.9.9, 208.67.222.222
 
 // iOS
 allow-wifi-access = true
