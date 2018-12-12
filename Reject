@@ -42,6 +42,7 @@ https://graph.facebook.com/network_ads_common/
 
 
 [Rule]
+DOMAIN-KEYWORD,vpay.nct.vn,REJECT
 DOMAIN-KEYWORD,mpay.nct.vn,REJECT
 DOMAIN-KEYWORD,metrics.cloudflarebolt.com,REJECT
 DOMAIN-KEYWORD,api.branch.io,REJECT
