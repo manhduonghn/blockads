@@ -7,6 +7,9 @@ loglevel = notify
 [DNS]
 system, 1.1.1.1, 9.9.9.9, 208.67.222.222
 
+[SOURCE]
+manhduonghn, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, true
+
 // iOS
 allow-wifi-access = true
 bypass-system = true
