@@ -35,10 +35,10 @@ use-keyword-filter = false
 Proxy = select, 🇻🇳NETWORK
 
 [URL-REJECTION]
-https://graph.nhaccuatui.com/v4/commons/notify-firebase
-https://graph.nhaccuatui.com/v4/users/3g-info
-https://graph.nhaccuatui.com/v4/advs
-https://graph.facebook.com/network_ads_common/ 
+^https://graph.nhaccuatui.com/v4/commons/notify-firebase
+^https://graph.nhaccuatui.com/v4/users/3g-info
+^https://graph.nhaccuatui.com/v4/advs
+^https://graph.facebook.com/network_ads_common/ 
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
