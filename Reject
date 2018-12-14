@@ -55,6 +55,7 @@ Proxy = select, 🇻🇳NETWORK
 ^https?:\/\/youtubei\.googleapis\.com/.+ad_break
 
 [Rule]
+DOMAIN-KEYWORD,gameitop.com,REJECT
 DOMAIN-KEYWORD,gstatic,REJECT
 DOMAIN-KEYWORD,vpay.nct.vn,REJECT
 DOMAIN-KEYWORD,mpay.nct.vn,REJECT
