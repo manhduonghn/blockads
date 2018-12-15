@@ -523,8 +523,3 @@ DOMAIN-KEYWORD,adver.mobi,REJECT
 DOMAIN-KEYWORD,advergine.com,REJECT
 DOMAIN-KEYWORD,adverserve,REJECT
 FINAL,DIRECT
-
-[MITM]
-hostname = graph.facebook.com,graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com
-
-
