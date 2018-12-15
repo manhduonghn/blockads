@@ -1,0 +1,5 @@
+[URL-REJECTION]
+^https://graph.facebook.com/network_ads_common/
+
+[MITM]
+hostname = graph.facebook.com
