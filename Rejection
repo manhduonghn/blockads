@@ -2,7 +2,6 @@
 ^https://graph.nhaccuatui.com/v4/commons/notify-firebase
 ^https://graph.nhaccuatui.com/v4/users/3g-info
 ^https://graph.nhaccuatui.com/v4/advs
-^https://graph.facebook.com/network_ads_common/
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
@@ -19,4 +18,4 @@
 ^https?:\/\/youtubei\.googleapis\.com/.+ad_break
 
 [MITM]
-hostname = graph.facebook.com,graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.garenanow.com
+hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.garenanow.com
