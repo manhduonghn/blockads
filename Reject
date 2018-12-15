@@ -7,6 +7,7 @@ loglevel = notify
 [SOURCE]
 manhduonghn, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, true
 manhduonghn, blacklist,https://raw.githubusercontent.com/manhduonghn/blockads/master/Rejection, true
+fbrejection, blacklist,https://raw.githubusercontent.com/manhduonghn/blockads/master/Rejectfb, true
 [DNS]
 system, 1.1.1.1, 9.9.9.9, 208.67.222.222
 
