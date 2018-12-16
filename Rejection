@@ -18,4 +18,4 @@
 ^https?:\/\/youtubei\.googleapis\.com/.+ad_break
 
 [MITM]
-hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.googlesyndication.com,*.googleapis.com,*.appspot.com,*.2mdn.net,*,tubemogul.com
+hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.googlesyndication.com,*.googleapis.com,*.appspot.com,*.2mdn.net,*.tubemogul.com
