@@ -5,6 +5,7 @@ dns-server = system, 1.1.1.1, 9.9.9.9, 208.67.222.222
 loglevel = notify
 
 [SOURCE]
+Reject, server, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, false, true, true
 manhduonghn, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, true
 manhduonghn, blacklist,https://raw.githubusercontent.com/manhduonghn/blockads/master/Rejection, true
 fbrejection, blacklist,https://raw.githubusercontent.com/manhduonghn/blockads/master/Rejectfb, true
