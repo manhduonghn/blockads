@@ -37,6 +37,7 @@ use-keyword-filter = false
 Proxy = select, 🇻🇳NETWORK
 
 [Rule]
+DOMAIN-KEYWORD,api.zcoup.com,REJECT
 DOMAIN-KEYWORD,ng-vn-notice.gameitop.com,REJECT
 DOMAIN-KEYWORD,gstatic,REJECT
 DOMAIN-KEYWORD,vpay.nct.vn,REJECT
