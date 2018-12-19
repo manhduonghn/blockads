@@ -16,6 +16,7 @@
 ^https?:\/\/s0\.2mdn\.net\/ads\/
 ^https?:\/\/stats\.tubemogul\.com\/stats\/
 ^https?:\/\/youtubei\.googleapis\.com/.+ad_break
-
+^https?:\/\/.+\.beacon\.qq\.com - reject
+^https?:\/\/.+\.gdt\.qq\.com - reject
 [MITM]
-hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com
+hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.qq.com
