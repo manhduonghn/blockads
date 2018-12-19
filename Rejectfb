@@ -1,4 +1,6 @@
 [URL-REJECTION]
+// NONE FB APP
+
 ^https://graph.facebook.com/network_ads_common/
 
 [MITM]
