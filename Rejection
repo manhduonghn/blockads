@@ -6,7 +6,7 @@
 ^https://graph.nhaccuatui.com/v4/advs
 
 //Youtube
-^https?:\/\/.+\.googlevideo.\com\/.+&sparams
+^https?:\/\/.+\.googlevideo.\com\/.+&sparams=clen,ctier,dur,ei,gir,id,initcwndbps,ip,ipbits,itag,keepalive,lmt,mime,mm,mn,ms,mv,pl,requiressl,source,expire
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
