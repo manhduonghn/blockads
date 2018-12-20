@@ -14,18 +14,7 @@ Proxy = select, 🇻🇳NETWORK
 
 [Rule]
 DOMAIN-KEYWORD,api.zcoup.com,REJECT
-DOMAIN-KEYWORD,ng-vn-notice.gameitop.com,REJECT
-DOMAIN-KEYWORD,gstatic,REJECT
-# Shadowrocket: 2018-12-20 14:47:04
-[General]
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, ::ffff:0.0.0.0/1, ::ffff:128.0.0.0/1, localhost, *.local
-dns-server = system, 1.1.1.1, 9.9.9.9, 208.67.222.222
-loglevel = notify
-
-[Proxy]
-🇻🇳NETWORK = socks5, 0.0.0.0, 443, username, password
-
-[Rule]
+DOMAIN-KEYWORD,gstatic.com,REJECT
 DOMAIN-KEYWORD,banner1,REJECT
 DOMAIN-KEYWORD,ng-vn-notice.gameitop.com,REJECT
 DOMAIN-KEYWORD,vpay.nct.vn,REJECT
