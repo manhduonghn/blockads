@@ -8,7 +8,6 @@
 
 //Youtube
 
-^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
@@ -22,6 +21,7 @@
 ^https?:\/\/s0\.2mdn\.net\/ads\/
 ^https?:\/\/stats\.tubemogul\.com\/stats\/
 ^https?:\/\/youtubei\.googleapis\.com/.+ad_break
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_
 
 //Qq game
 
