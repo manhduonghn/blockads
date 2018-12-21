@@ -1,7 +1,7 @@
 [URL-REJECTION]
 // NONE FB APP
 
-^https://graph.facebook.com/network_ads_common/
+^https://graph.facebook.com/network_ads_common/*
 ^https?://graph.facebook.com/v2.*/*/activities
 ^https?://graph.facebook.com/v3.*/*/activities
 ^https?://graph.facebook.com/v2.*/*?advertiser_id=*
