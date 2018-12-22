@@ -7,8 +7,24 @@
 ^https://graph.nhaccuatui.com/v4/advs
 
 //Youtube
-
+^https?://play.googleapis.com/log/*
+^https?://s.youtube.com/api/stats/playback*
+^https?://s.youtube.com/api/stats/qoe*
+^https?://www.googleapis.com/adsmeasurement/*
+^https?://www.youtube.com/error_204*
+^https?://www.youtube.com/pagead/*
+^https?://www.youtube.com/ptracking
+^https?://youtubei.googleapis.com/youtubei/v1/log_*
+^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/.+ctier
+^https?:\/\/.+\.googlevideo\.com\/.+dur=5
+^https?:\/\/.+\.googlevideo\.com\/.+dur=10
+^https?:\/\/.+\.googlevideo\.com\/.+dur=7
+^https?:\/\/.+\.googlevideo\.com\/.+dur=15
+^https?:\/\/.+\.googlevideo\.com\/.+dur=20
+^https?:\/\/.+\.googlevideo\.com\/.+dur=25
+^https?:\/\/.+\.googlevideo\.com\/.+dur=30
+^https?://www.youtube.com/player_204?a-type=
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
