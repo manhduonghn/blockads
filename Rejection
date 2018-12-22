@@ -8,6 +8,7 @@
 
 //Youtube
 
+^https?:\/\/.+\.googlevideo\.com\/.+ctier
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
