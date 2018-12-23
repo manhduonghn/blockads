@@ -1,3 +1,6 @@
+[SERVER]
+🇻🇳Network = socks5, upstream-proxy-address=0.0.0.0, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=false, certificate=1
+
 [SOURCE]
 manhduonghn, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Reject, true
 manhduonghn, blacklist,https://raw.githubusercontent.com/manhduonghn/blockads/master/Rejection, true
