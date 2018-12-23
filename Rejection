@@ -5,7 +5,6 @@
 ^https://graph.nhaccuatui.com/v4/commons/notify-firebase
 ^https://graph.nhaccuatui.com/v4/users/3g-info
 ^https://graph.nhaccuatui.com/v4/advs
-^https://graph.nhaccuatui.com/v4/logs
 
 //Youtube
 ^https?://play.googleapis.com/log/*
