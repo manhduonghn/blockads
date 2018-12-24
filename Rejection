@@ -8,24 +8,20 @@
 ^https://graph.nhaccuatui.com/v4/advs
 
 //Youtube
+
 ^https?://play.googleapis.com/log/*
 ^https?://s.youtube.com/api/stats/playback*
 ^https?://s.youtube.com/api/stats/qoe*
 ^https?://www.googleapis.com/adsmeasurement/*
+^https?://www.youtube.com/csi_204*
 ^https?://www.youtube.com/error_204*
+^https?://www.youtube.com/get_midroll_*
 ^https?://www.youtube.com/pagead/*
 ^https?://www.youtube.com/ptracking
-^https?://youtubei.googleapis.com/youtubei/v1/log_*
+^https?://youtubei.googleapis.com/youtubei/.+ad_
+^https?://youtubei.googleapis.com/youtubei/.+log_*
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad
 ^https?:\/\/.+\.googlevideo\.com\/.+ctier
-^https?:\/\/.+\.googlevideo\.com\/.+dur=5
-^https?:\/\/.+\.googlevideo\.com\/.+dur=10
-^https?:\/\/.+\.googlevideo\.com\/.+dur=7
-^https?:\/\/.+\.googlevideo\.com\/.+dur=15
-^https?:\/\/.+\.googlevideo\.com\/.+dur=20
-^https?:\/\/.+\.googlevideo\.com\/.+dur=25
-^https?:\/\/.+\.googlevideo\.com\/.+dur=30
-^https?://www.youtube.com/player_204?a-type=
 ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
@@ -33,13 +29,7 @@
 ^https?:\/\/.+\.youtube\.com\/pagead\/
 ^https?:\/\/.+\.youtube\.com\/ptracking\?
 ^https?:\/\/m\.youtube\.com\/_get_ads
-^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
 ^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat
-^https?:\/\/s0\.2mdn\.net\/ads\/
-^https?:\/\/stats\.tubemogul\.com\/stats\/
-^https?:\/\/youtubei\.googleapis\.com/.+ad_break
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_
 
 //Qq game
 
