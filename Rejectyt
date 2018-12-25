@@ -1,0 +1,14 @@
+[URL-REJECTION]
+
+  // Youtube
+  
+  ^.+?googlevideo.com/.+?---.+?index - reject 
+  ^https?://m.youtube.com/_get_ads - reject 
+  ^https?://pagead2.googlesyndication.com/pagead/ - reject 
+  ^https?://r\d---sn-(\w+|\w+-\w+).googlevideo.com - reject 
+  ^https?://s0.2mdn.net/ads/ - reject 
+  ^https?://stats.tubemogul.com/stats/ - reject 
+
+[MITM]
+
+hostname = *.youtube.com,*.googlevideo.com,*.googleapis.com,*.googlesyndication.com,*.tubemogul.com
