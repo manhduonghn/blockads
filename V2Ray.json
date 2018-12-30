@@ -1,92 +1,43 @@
 {
+  "log" : {
+    "loglevel" : "none"
+  },
   "inbounds" : [
     {
+      "listen" : "127.0.0.1",
       "protocol" : "http",
+      "streamSettings" : {
+
+      },
       "port" : 1087,
       "settings" : {
         "allowTransparent" : true
-      },
-      "listen" : "127.0.0.1",
-      "streamSettings" : {
-
       }
     }
   ],
   "policy" : {
     "levels" : {
       "0" : {
-        "connIdle" : 120,
-        "handshake" : 4,
         "uplinkOnly" : 0,
-        "downlinkOnly" : 0
+        "connIdle" : 120,
+        "downlinkOnly" : 0,
+        "handshake" : 4
       }
     }
-  },
-  "dns" : {
-    "servers" : [
-      "223.5.5.5",
-      {
-        "port" : 53,
-        "address" : "114.114.114.114",
-        "domains" : [
-          "geosite:cn"
-        ]
-      }
-    ],
-    "clientIp" : "115.239.211.92"
-  },
-  "log" : {
-    "loglevel" : "none"
   },
   "outbounds" : [
     {
       "protocol" : "freedom",
-      "settings" : {
-        "domainStrategy" : "UseIP"
-      },
-      "tag" : "direct",
       "streamSettings" : {
 
-      }
-    },
-    {
-      "protocol" : "vmess",
-      "settings" : {
-        "vnext" : [
-          {
-            "port" : 10025,
-            "address" : "uni.kitsunebi.fun",
-            "users" : [
-              {
-                "alterId" : 0,
-                "id" : "95137857-70fa-4ac8-8f90-4e20aeb662cf",
-                "security" : "chacha20-poly1305"
-              }
-            ]
-          }
-        ]
       },
-      "tag" : "proxy",
-      "mux" : {
-        "enabled" : false,
-        "concurrency" : 8
-      },
-      "streamSettings" : {
-        "security" : "none",
-        "network" : "tcp",
-        "tcpSettings" : {
-          "header" : {
-            "type" : "none"
-          }
-        },
-        "tlsSettings" : {
-          "allowInsecure" : true
-        }
-      }
-    },
-    {
-      "protocol" : "blackhole",
+      "tag" : "direct",
       "settings" : {
+        "domainStrategy" : "UseIP"
+      }
+    }
+  ]
+}
 
       },
       "tag" : "block"
