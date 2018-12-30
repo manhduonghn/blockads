@@ -1,0 +1,22 @@
+{
+  "obfsParam" : "",
+  "weight" : 1546159770,
+  "allowInsecure" : false,
+  "title" : "🇻🇳Network",
+  "host" : "127.0.0.1",
+  "ota" : false,
+  "file" : "",
+  "uuid" : "FB946780-36B8-477D-B2DF-59733A9549E3",
+  "method" : "",
+  "flag" : "WW",
+  "obfs" : "",
+  "type" : "SSocks5",
+  "user" : "manhduong",
+  "protoParam" : "",
+  "tls" : false,
+  "port" : 443,
+  "proto" : "",
+  "password" : "manhduong",
+  "data" : "",
+  "ping" : 0
+}
