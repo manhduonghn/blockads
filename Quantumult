@@ -1,11 +1,12 @@
 [SERVER]
 🇻🇳NetWork = socks5, upstream-proxy-address=127.0.0.1, upstream-proxy-port=443, upstream-proxy-auth=false, over-tls=false, certificate=1
 [SOURCE]
-
-[BACKUP-SERVER]
 FILTER, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult, true
 REJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult-Rejection, true
 FBREJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult-Fbrejection, true
+
+[BACKUP-SERVER]
+
 [SUSPEND-SSID]
 
 [POLICY]
