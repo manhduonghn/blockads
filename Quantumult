@@ -16,10 +16,6 @@
 
 [TCP]
 
-[General]
-loglevel = notify
-
-[Rule]
 DOMAIN-KEYWORD,heads-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-KEYWORD,mideasvn.com,REJECT
 DOMAIN-KEYWORD,onetad.com,REJECT
