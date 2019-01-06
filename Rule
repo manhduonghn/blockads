@@ -9,6 +9,8 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
+DOMAIN-KEYWORD,adtima-media.zadn.vn,REJECT
 DOMAIN-KEYWORD,applvn.com,REJECT
 DOMAIN-KEYWORD,heads-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-KEYWORD,mideasvn.com,REJECT
