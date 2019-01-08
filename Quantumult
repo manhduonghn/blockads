@@ -20,7 +20,6 @@ FBREJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/m
 [Rule]
 DOMAIN-KEYWORD,adthor.com,REJECT
 DOMAIN-KEYWORD,zcoup.com,REJECT
-DOMAIN-KEYWORD,zcoup.com,REJECT
 DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
 DOMAIN-KEYWORD,adtima-media.zadn.vn,REJECT
 DOMAIN-KEYWORD,applvn.com,REJECT
