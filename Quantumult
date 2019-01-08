@@ -4,6 +4,7 @@
 FILTER, filter, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult, true
 REJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult-Rejection, true
 FBREJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult-Fbrejection, true
+YTREJECTION, blacklist, https://raw.githubusercontent.com/manhduonghn/blockads/master/Quantumult-YTrejection, true
 
 [BACKUP-SERVER]
 
