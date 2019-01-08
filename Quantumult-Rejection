@@ -9,30 +9,6 @@
 ^https?://avatar-nct.nixcdn.com/.+popup
 ^https?://graph.nhaccuatui.com/.+deviceinfo
 
-//Youtube
-
-^https?://play.googleapis.com/log/*
-^https?://s.youtube.com/api/stats/playback*
-^https?://s.youtube.com/api/stats/qoe*
-^https?://www.googleapis.com/adsmeasurement/*
-^https?://www.youtube.com/csi_204*
-^https?://www.youtube.com/error_204*
-^https?://www.youtube.com/get_midroll_*
-^https?://www.youtube.com/pagead/*
-^https?://www.youtube.com/ptracking
-^https?://youtubei.googleapis.com/youtubei/.+ad_
-^https?://youtubei.googleapis.com/youtubei/.+log_*
-^https?:\/\/.+\.googlevideo\.com\/.+&oad
-^https?:\/\/.+\.googlevideo\.com\/.+ctier
-^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
-^https?:\/\/.+\.youtube\.com\/get_midroll
-^https?:\/\/.+\.youtube\.com\/pagead\/
-^https?:\/\/.+\.youtube\.com\/ptracking\?
-^https?:\/\/m\.youtube\.com\/_get_ads
-^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat
-
 //Qq game
 
 ^https?:\/\/.+\.beacon\.qq\.com - reject
@@ -56,4 +32,4 @@
 
 
 [MITM]
-hostname = graph.nhaccuatui.com,*.youtube.com,*.googlevideo.com,*.googleapis.com,*.qq.com,*.tiktokv.com,*.musical.ly,spclient.wg.spotify.com,avatar-nct.nixcdn.com,*.zaloapp.com
+hostname = graph.nhaccuatui.com,*.qq.com,*.tiktokv.com,*.musical.ly,spclient.wg.spotify.com,avatar-nct.nixcdn.com,*.zaloapp.com
