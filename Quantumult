@@ -36,7 +36,7 @@ DOMAIN-KEYWORD,www.googletagservices.com,REJECT
 DOMAIN-KEYWORD,catch.gift,REJECT
 DOMAIN-KEYWORD,data.flurry.com,REJECT
 DOMAIN-KEYWORD,ios.bugly.qq.com,REJECT
-DOMAIN-KEYWORD,sec.umeng.com,REJECT
+DOMAIN-KEYWORD,umeng.com,REJECT
 DOMAIN-KEYWORD,asdkd.tutuapp.com,REJECT
 DOMAIN-KEYWORD,p.midasplayer.com,REJECT
 DOMAIN-KEYWORD,servicelayer.king.com,REJECT
