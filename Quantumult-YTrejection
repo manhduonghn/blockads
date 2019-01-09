@@ -26,5 +26,4 @@
 
 
 [MITM]
-hostname = 
-*.youtube.com,*.googlevideo.com,*.googleapis.com
+hostname = *.youtube.com,*.googlevideo.com,*.googleapis.com
